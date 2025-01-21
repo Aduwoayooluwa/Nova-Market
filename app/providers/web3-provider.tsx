@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { injected, coinbaseWallet } from 'wagmi/connectors';
 import '@rainbow-me/rainbowkit/styles.css';
 import FloatingCart from '../components/floating-cart';
+import { ConfigProvider } from 'antd';
 
 const config = createConfig({
   chains: [mainnet, polygon, optimism, arbitrum],
@@ -28,12 +29,18 @@ export function Web3Provider({ children }: { children: React.ReactNode }) {
 
   return (
     <WagmiProvider config={config}>
-      <QueryClientProvider client={queryClient}>
+     <ConfigProvider theme={{
+      token: {
+        colorPrimary: "#D4A373"
+      }
+     }}>
+     <QueryClientProvider client={queryClient}>
         <RainbowKitProvider coolMode>
           {children}
           <FloatingCart />
         </RainbowKitProvider>
       </QueryClientProvider>
+     </ConfigProvider>
     </WagmiProvider>
   );
 } 
