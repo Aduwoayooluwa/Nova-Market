@@ -5,8 +5,22 @@ import { FC, useState } from "react";
 import { useCartStore } from "@/app/stores/cart-store";
 import { useCheckout } from "@/app/hooks/useCheckout";
 
-const CartItems: FC = () => {
-  const { items, removeItem, updateQuantity, getTotalPrice } = useCartStore();
+interface CartItem {
+    id: string;
+    title: string;
+    description: string;
+    price: number;
+    currency: string;
+    image: string;
+    quantity: number;
+}
+
+interface CartItemsProps {
+    items: CartItem[];
+}
+
+const CartItems: FC<CartItemsProps> = ({ items }) => {
+  const { removeItem, updateQuantity, getTotalPrice } = useCartStore();
   const { handleCheckout, isLoading, error } = useCheckout();
   const [txHash, setTxHash] = useState<string | null>(null);
 
