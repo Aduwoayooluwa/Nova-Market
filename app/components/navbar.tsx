@@ -151,9 +151,9 @@ const Navbar = () => {
             initial={{ height: 0 }}
             animate={{ height: "auto" }}
             exit={{ height: 0 }}
-            className="bg-primary md:hidden overflow-hidden"
+            className="bg-transparent md:hidden overflow-hidden"
           >
-            <ul className="flex flex-col space-y-4 py-4 px-6 text-white">
+            <ul className="flex flex-col space-y-4 py-4 px-6 ">
               {navLinks.map((link) => (
                 <li key={link.name}>
                   <Link
@@ -167,13 +167,13 @@ const Navbar = () => {
                 </li>
               ))}
               {/* Cart Icon for Mobile */}
-              <li>
+              <li className="w-6 ">
                 <Link
                   href="/cart"
                   className="relative flex items-center hover:text-accent transition-colors duration-300"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  <ShoppingCartOutlined className="text-xl" />
+                  <ShoppingCartOutlined size={24} className="text-xl" />
                   {cartItemCount > 0 && (
                     <span className="absolute top-0 right-0 bg-accent text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center transform -translate-y-1/2 translate-x-1/2">
                       {cartItemCount}
