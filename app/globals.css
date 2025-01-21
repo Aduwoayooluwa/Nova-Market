@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF6F0;
+  --foreground: #2E2E2E;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Syne", Arial, Helvetica, sans-serif;
+}

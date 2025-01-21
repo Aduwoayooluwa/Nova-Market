@@ -1,0 +1,94 @@
+[
+    {
+      "id": "1",
+      "title": "Ethereal Dawn",
+      "category": "Art",
+      "creator": "Alice Digital",
+      "price": "0.5",
+      "currency": "ETH",
+      "image": "/images/ethereal-dawn.jpg",
+      "description": "A surreal digital painting of an abstract sunrise over a blockchain-inspired landscape.",
+      "likes": 125,
+      "owner": "0x123abc456def789ghi",
+      "listedDate": "2025-01-20"
+    },
+    {
+      "id": "2",
+      "title": "Cyber Symphony",
+      "category": "Music",
+      "creator": "Harmony Beats",
+      "price": "0.8",
+      "currency": "ETH",
+      "image": "/images/cyber-symphony.jpg",
+      "description": "An exclusive synthwave track, inspired by futuristic and decentralized themes.",
+      "likes": 89,
+      "owner": "0x789def456ghi123abc",
+      "listedDate": "2025-01-19"
+    },
+    {
+      "id": "3",
+      "title": "Crypto Warrior",
+      "category": "Gaming",
+      "creator": "PixelForge",
+      "price": "1.2",
+      "currency": "MATIC",
+      "image": "/images/crypto-warrior.jpg",
+      "description": "A rare in-game asset: a blockchain-empowered warrior skin for CryptoBattle.",
+      "likes": 300,
+      "owner": "0x456ghi123abc789def",
+      "listedDate": "2025-01-18"
+    },
+    {
+      "id": "4",
+      "title": "Blockchain Horizons",
+      "category": "Photography",
+      "creator": "Lens Masters",
+      "price": "0.4",
+      "currency": "ETH",
+      "image": "/images/blockchain-horizons.jpg",
+      "description": "A breathtaking photograph of the skyline with blockchain node overlays.",
+      "likes": 72,
+      "owner": "0xabc456def123ghi789",
+      "listedDate": "2025-01-20"
+    },
+    {
+      "id": "5",
+      "title": "Digital Eclipse",
+      "category": "Art",
+      "creator": "Neon Pixel Studio",
+      "price": "1.0",
+      "currency": "ETH",
+      "image": "/images/digital-eclipse.jpg",
+      "description": "A digital masterpiece showcasing a solar eclipse in a futuristic blockchain city.",
+      "likes": 210,
+      "owner": "0xdef123abc789ghi456",
+      "listedDate": "2025-01-17"
+    },
+    {
+      "id": "6",
+      "title": "Metaverse Melodies",
+      "category": "Music",
+      "creator": "Virtual Harmony",
+      "price": "0.3",
+      "currency": "ETH",
+      "image": "/images/metaverse-melodies.jpg",
+      "description": "A relaxing ambient track designed for metaverse environments.",
+      "likes": 54,
+      "owner": "0xghi456abc123def789",
+      "listedDate": "2025-01-19"
+    },
+    {
+      "id": "7",
+      "title": "Neo Knight",
+      "category": "Gaming",
+      "creator": "NextGen Games",
+      "price": "2.5",
+      "currency": "MATIC",
+      "image": "/images/neo-knight.jpg",
+      "description": "A legendary in-game character for NeoQuest, equipped with blockchain powers.",
+      "likes": 150,
+      "owner": "0x789abc456ghi123def",
+      "listedDate": "2025-01-16"
+    }
+  ]
+  
